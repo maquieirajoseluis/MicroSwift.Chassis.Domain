@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>MicroSwift.Chassis.Domain</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>maquieirajoseluis</Authors>
+    <Description>Domain primitives for MicroSwift applications.</Description>
+    <PackageTags>DDD</PackageTags>
+  </PropertyGroup>
+
+</Project>

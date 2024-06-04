@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{87DC05CC-5940-485B-B111-E3EDB87EBDD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroSwift.Chassis.Domain", "src\MicroSwift.Chassis.Domain\MicroSwift.Chassis.Domain.csproj", "{180AAB5B-F5BE-4B2E-82F3-FCD6508631D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9B56EA6A-F32F-4B54-BA5A-87FDF323B523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroSwift.Chassis.Domain.Tests", "tests\MicroSwift.Chassis.Domain.Tests\MicroSwift.Chassis.Domain.Tests.csproj", "{C6639EBE-D4C4-4C47-823D-CFB86EF4F1EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{180AAB5B-F5BE-4B2E-82F3-FCD6508631D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180AAB5B-F5BE-4B2E-82F3-FCD6508631D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180AAB5B-F5BE-4B2E-82F3-FCD6508631D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180AAB5B-F5BE-4B2E-82F3-FCD6508631D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6639EBE-D4C4-4C47-823D-CFB86EF4F1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6639EBE-D4C4-4C47-823D-CFB86EF4F1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6639EBE-D4C4-4C47-823D-CFB86EF4F1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6639EBE-D4C4-4C47-823D-CFB86EF4F1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{180AAB5B-F5BE-4B2E-82F3-FCD6508631D2} = {87DC05CC-5940-485B-B111-E3EDB87EBDD7}
+		{C6639EBE-D4C4-4C47-823D-CFB86EF4F1EA} = {9B56EA6A-F32F-4B54-BA5A-87FDF323B523}
+	EndGlobalSection
+EndGlobal
