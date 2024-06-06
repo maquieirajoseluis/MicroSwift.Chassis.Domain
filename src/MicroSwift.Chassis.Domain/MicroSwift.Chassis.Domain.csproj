@@ -5,11 +5,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>unlisted</PackageTags>
     <PackageId>MicroSwift.Chassis.Domain</PackageId>
-    <Version>1.0.0</Version>
     <Authors>maquieirajoseluis</Authors>
     <Description>Domain primitives for MicroSwift applications.</Description>
     <PackageTags>DDD</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MinVer" Version="5.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>
