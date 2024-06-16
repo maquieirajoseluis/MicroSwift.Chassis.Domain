@@ -1,12 +1,10 @@
-name: Build-and-Publish
+name: Common
 
 on:
-  push:
-    branches:
-      - main
+  workflow_call:
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,8 +28,3 @@ jobs:
 
       - name: Test
         run: dotnet test --configuration Release --logger trx
-
-      - name: Publish NuGet package
-        run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --skip-duplicate --source https://api.nuget.org/v3/index.json
-        env:
-          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
